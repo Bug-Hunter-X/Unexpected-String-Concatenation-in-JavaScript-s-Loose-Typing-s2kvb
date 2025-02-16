@@ -1,0 +1,1 @@
+This code demonstrates a common error in JavaScript due to its dynamic typing.  The `add` function intends to perform numerical addition, but because of loose typing, it performs string concatenation when one of the inputs is a string. This can lead to difficult-to-debug issues. The solution demonstrates how to enforce type checking to prevent this error.
